@@ -6,7 +6,7 @@ python run_bert_triple_classifier.py \
 --do_train \
 --do_eval \
 --do_predict \
---data_dir ./data/FB13_small \
+--data_dir ./data/FB13 \
 --bert_model bert-base-cased \
 --max_seq_length 200 \
 --train_batch_size 32 \
